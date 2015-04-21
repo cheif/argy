@@ -5,7 +5,8 @@ Argy is a simple tool for creating CLI programs using python, it tries to remove
 Usage
 =====
 
-.. code::python
+.. code::
+   
     import argy
 
 
@@ -28,7 +29,8 @@ Usage
 
 This will create a CLI-program with the expected arguments, see also example.py
 
-.. code::shell
+.. code::
+
     $ python example.py -h
     usage: example.py [-h] [--subtract SUBTRACT] x y
 
